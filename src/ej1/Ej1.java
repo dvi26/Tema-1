@@ -96,7 +96,12 @@ public class Ej1 {
 		double preciosumar;
 		System.out.println("Precio del producto: ");
 		precio = sc.nextDouble();
-		preciosumar= 100*
+		double precioIVA= precio*IVA;
+		double preciofinal = precioIVA/100;
+		double precioconIVA= preciofinal+precio;
+		System.out.println("El precio final con IVA será: " + precioconIVA + "€" );
+		
+				
 		
 		/*Para pasar a git
 		 * Click derecho en el proyecto, Tean y share. 
