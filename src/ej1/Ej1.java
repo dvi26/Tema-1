@@ -93,7 +93,6 @@ public class Ej1 {
 		final double IVA;
 		IVA= 21;
 		double precio;
-		double preciosumar;
 		System.out.println("Precio del producto: ");
 		precio = sc.nextDouble();
 		double precioIVA= precio*IVA;
@@ -101,29 +100,30 @@ public class Ej1 {
 		double precioconIVA= preciofinal+precio;
 		System.out.println("El precio final con IVA será: " + precioconIVA + "€" );
 		
-				
-		
-		/*Para pasar a git
-		 * Click derecho en el proyecto, Tean y share. 
-		 */
-		
-		
-		
-	}
-		
-	
-		
-	
+		sc.close();
 		
 		/* 1. Declaración e inicialización de variables
 		 * 2. Instrucciones (código)
 		 * 3. Close scanner
 		 */
 		
-	
-
-	
-
 	}
 
-}
+	}
+		
+		
+	
+		
+		
+		
+	
+
+		
+		
+	
+
+	
+
+	
+
+
