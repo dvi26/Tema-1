@@ -5,19 +5,15 @@ import java.util.Scanner;
 public class Ej8 {
 
 	public static void main(String[] args) {
+		final String NOMBRE2;
+		final int EDAD2;
 		Scanner sc = new Scanner(System.in);
-		final String NOMBRE;
-		final String DIRECCIÓN;
-		final int TELÉFONO;
-		System.out.println("Escriba su nombre: ");
-		NOMBRE = sc.nextLine();
-		System.out.println("Escriba su dirección: ");
-		DIRECCIÓN = sc.nextLine();
-		System.out.println("Escriba su número de teléfono: ");
-		TELÉFONO = sc.nextInt();
-		System.out.println("Nombre: " + NOMBRE );
-		System.out.println("Dirección: " + DIRECCIÓN );
-		System.out.println("Teléfono: " + TELÉFONO );
+		System.out.println("Introduzca su nombre: ");
+		NOMBRE2 = sc.nextLine();
+		System.out.print("Introduzca su edad: ");
+		EDAD2 = sc.nextInt();
+		System.out.println("Hola, " + NOMBRE2 + " tienes " + EDAD2 + " años, ¡qué mayor eres!" );
+		
 		sc.close();
 
 	}

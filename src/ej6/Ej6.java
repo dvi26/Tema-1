@@ -5,15 +5,22 @@ import java.util.Scanner;
 public class Ej6 {
 
 	public static void main(String[] args) {
+		double n1;
+		double n2;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Radio de la circunferencia: ");
-		final double PI = Math.PI;
-		double radio;
-		radio = sc.nextDouble();
-		double resultado5 = PI*2*radio;
-		double resultado6 = PI*radio*radio;
-		System.out.print("La longitud de la circunferencia es: " + resultado5 );
-		System.out.print("El área de la circunferencia es:: " + resultado6 );
+		System.out.println("Seleccione un primer número: ");
+		n1 = sc.nextDouble();
+		System.out.println("Seleccione un segundo número: ");
+		n2 = sc.nextDouble();
+		double resultado7 = n1+n2;
+		double resultado8 = n1*n2;
+		double resultado9 = n1/n2;
+		double resultado10 = n1-n2;
+		System.out.println("La suma de ambos números es: " + resultado7 );
+		System.out.println("La multiplicación de ambos números es: " + resultado8 );
+		System.out.println("La división de ambos números es: " + resultado9 );
+		System.out.print("La resta de ambos números es: " + resultado10 );
+		
 		sc.close();
 
 
