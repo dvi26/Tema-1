@@ -17,6 +17,10 @@ public class Ej1 {
 		/* 1. Declaración e inicialización de variables
 		 * 2. Instrucciones (código)
 		 * 3. Close scanner
+		 * 
+		 *(ATAJOS)
+		 * CTRL ALT FLECHA
+		 * ALT FLECHA
 		 */
 		
 	}
