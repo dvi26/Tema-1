@@ -5,12 +5,19 @@ import java.util.Scanner;
 public class Ej12 {
 
 	public static void main(String[] args) {
-		final int edad;
+		int edad;
 		System.out.println("Indique su edad: ");
 		Scanner sc = new Scanner(System.in);
-		edad = sc.hashCode();
-		boolean edad = 18;
+		edad = sc.nextInt();
+		boolean mayormenor = (edad >=18);
+		System.out.println("¿Es usted mayor de edad?: " + mayormenor);
+		sc.close();
 		
+		
+		
+		
+		
+			
 	}
 
 }
