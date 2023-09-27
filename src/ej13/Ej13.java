@@ -10,7 +10,8 @@ public class Ej13 {
 		Scanner sc = new Scanner(System.in);
 		número = sc.nextInt();
 		int comprobación = (número %= 2);
-		boolean hola = (número==comprobación);
+		boolean hola = (número==
+		
 		System.out.println("¿Es par? " + hola);
 		
 		
